@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,900');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Muli', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  background: url(../images/nightsky.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

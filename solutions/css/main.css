@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,900');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Muli', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 2rem 0;
+  background: url(../images/nightsky.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section {
+  padding: 0 1rem 1rem 1rem;
+  width: 50%;
+}
+
+fieldset {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid grey;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  margin-bottom: 1rem;
+}
+
+.bucket-form {
+  background-color: white;
+}

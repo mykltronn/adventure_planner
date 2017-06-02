@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Adventure Planner</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <section class="intro">
+      <div>
+        <h1>What's on your bucket list?</h1>
+      </div>
+    </section>
+    <section class="bucket-form">
+      <h2>Let's plan your next adventure</h2>
+      <form action="http://foo.com" method="POST">
+        <fieldset>
+          <legend>Time and Place</legend>
+          <input type="radio" name="season" value="spring" checked>
+            <label for="spring">Spring</label>
+            <br>
+            <input type="radio" name="season" value="summer">
+            <label for="summer">Summer</label>
+            <br>
+            <input type="radio" name="season" value="winter">
+            <label for="winter">Winter</label>
+            <br>
+            <input type="radio" name="season" value="fall">
+            <label for="fall">Fall</label>
+            <br>
+          <label for="climate">Climate:</label>
+          <select type="select" id="climate">
+            <option value="tropic" selected>Tropic</option>
+            <option value="mediterranean">Mediterranean</option>
+            <option value="marine">Marine</option>
+            <option value="tundra">Tundra</option>
+            <option value="arid">Arid</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Attractions</legend>
+          <input type="checkbox" name="attractions" id="resorts" value="resorts">
+          <label for="resorts">Resorts</label>
+          <br>
+          <input type="checkbox" name="attractions" id="nature" value="nature">
+          <label for="nature">Nature</label>
+          <br>
+          <input type="checkbox" name="attractions" id="history" value="history">
+          <label for="history">History</label>
+          <br>
+          <input type="checkbox" name="attractions" id="night-life" value="night-life">
+          <label for="night-life">Night Life</label>
+          <br>
+        </fieldset>
+        <input type="submit" class="button" value="See the Results"/>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
